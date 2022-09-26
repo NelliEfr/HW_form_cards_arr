@@ -1,0 +1,59 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+/* .container {
+  display: flex;
+  flex-wrap: wrap;
+} */
+.form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 200px;
+}
+
+.form input,
+.form button {
+  padding: 9px;
+  margin: 6px;
+}
+.form button {
+  background: rgb(1, 1, 174);
+  border-radius: 5px;
+  color: white;
+}
+.card {
+  border: solid black 1px;
+  border-radius: 10px;
+  padding: 12px 18px;
+  margin: 10px;
+  width: 200px;
+  background-color: rgb(252, 252, 232);
+}
+
+.card img {
+  max-height: 150px;
+  width: 100%;
+  padding: 10px;
+  /* width: 200px;
+  height: 200px; */
+  object-fit: contain;
+  /* object-fit: cover; */
+}
+.card .progress {
+  position: relative;
+  margin-top: 10px;
+  height: 20px;
+  border: solid 1px black;
+}
+.card .progress div {
+  position: absolute;
+  height: 100%;
+}
+.card .progress p {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  margin: 0;
+}

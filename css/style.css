@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.workers_form {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.workers_form input,
+.workers_form button {
+    padding: 10px;
+    margin: 10px;
+}
+
+.workers_form button {
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.card {
+    padding: 15px;
+    margin: 15px;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: antiquewhite;
+}
+
+.card_container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
